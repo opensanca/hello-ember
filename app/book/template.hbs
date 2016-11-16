@@ -1,0 +1,19 @@
+<h2>
+  {{nameWithId}}
+
+  {{#bs-button type="info" class="pull-right" icon="glyphicon glyphicon-pencil" action="edit" }}
+    {{bs-tooltip title="Clique aqui para Editar"}}
+  {{/bs-button}}
+</h2>
+
+{{book-form open=isEdit model=model submit="submit" closedAction="closedAction"}}
+
+<div class="row">
+  <div class="col-md-3">
+    <img src="{{model.image}}" class="img-responsive" alt="Responsive image">
+  </div>
+
+  <div class="col-md-9">
+    {{model.resume}}
+  </div>
+</div>

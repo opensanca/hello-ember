@@ -1,0 +1,26 @@
+{{outlet}}
+
+{{upcase "Boooks"}}
+
+{{!-- {{#bs-alert type="success"}}
+<strong>Well done!</strong> You successfully read this important alert message.
+{{/bs-alert}} --}}
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Capa</th>
+      <th>Nome</th>
+      <th>Url</th>
+      <th>Ação</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each model as |book|}}
+      {{#unless book.isNew}}
+        {{book-row model=book number=3 delete="remove" edit="edit"}}
+      {{/unless}}
+    {{/each}}
+  </tbody>
+</table>
