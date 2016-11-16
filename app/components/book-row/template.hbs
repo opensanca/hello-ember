@@ -1,0 +1,9 @@
+<td>{{model.id}}</td>
+<td><img src="{{model.image}}" class="img-responsive" alt="Responsive image" width="90px"></td>
+<td>{{#link-to 'book' model.id}} {{upcase model.name}} {{/link-to}}</td>
+<td>{{model.url}}</td>
+<td>
+  {{#bs-button type="danger" icon="glyphicon glyphicon-trash" action="delete" size="xs"}}
+    {{bs-tooltip title="Clique aqui para Excluir"}}
+  {{/bs-button}}
+</td>

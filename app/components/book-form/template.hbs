@@ -1,0 +1,11 @@
+{{#bs-modal open=open title=modelTitle body=false footer=false closedAction=closedAction}}
+ {{#bs-modal-body}}
+   {{#bs-form action=(action "submit") model=model}}
+     {{bs-form-element controlType="text" label="Nome" placeholder="Nome" property="name"}}
+      {{bs-form-element controlType="textarea" label="Resumo" placeholder="Resumo" property="resume"}}
+      {{bs-form-element controlType="text" label="Url" placeholder="Url" property="url"}}
+   {{/bs-form}}
+ {{/bs-modal-body}}
+
+ {{bs-modal-footer closeTitle="Cancelar" submitTitle="Salvar"}}
+{{/bs-modal}}
