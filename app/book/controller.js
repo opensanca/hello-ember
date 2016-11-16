@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import SharedActions from 'demosanca/mixins/shared-actions';
+import SharedActions from 'hello-ember/mixins/shared-actions';
 
 export default Ember.Controller.extend(SharedActions, {
   isEdit: false,

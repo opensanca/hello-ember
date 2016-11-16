@@ -1,4 +1,4 @@
-import { upcase } from 'demosanca/helpers/upcase';
+import { upcase } from 'hello-ember/helpers/upcase';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | upcase');

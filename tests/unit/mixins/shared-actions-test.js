@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import SharedActionsMixin from 'demosanca/mixins/shared-actions';
+import SharedActionsMixin from 'hello-ember/mixins/shared-actions';
 import { module, test } from 'qunit';
 
 module('Unit | Mixin | shared actions');

@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'demosanca',
+    modulePrefix: 'hello-ember',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',

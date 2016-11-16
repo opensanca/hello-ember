@@ -15,8 +15,8 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd demosanca`
+* `git clone https://github.com/opensanca/hello-ember.git` this repository
+* `cd hello-ember`
 * `npm install`
 * `bower install`
 
